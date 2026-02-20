@@ -3,43 +3,115 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Go Nepal Adventures | Treks & Tours in Nepal</title>
-<meta name="description" content="Go Nepal Adventures offers trekking, hiking, and tours in Nepal including Everest Base Camp, Annapurna Circuit, and Langtang Valley.">
+
+<title>Go Nepal Adventures | Trekking Guide in Nepal</title>
+<meta name="description" content="Local trekking guide in Nepal offering Everest Base Camp, Annapurna Base Camp and Langtang Valley treks with experienced guides. Contact on WhatsApp +9779818800584">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-body {
-    font-family: Arial, sans-serif;
+body{
     margin:0;
-    padding:0;
-    background:#f5f5f5;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    color:#333;
 }
+
 header{
-    background:#0a4d68;
+    background:url('https://images.unsplash.com/photo-1509644851169-2acc08aa25b6') center/cover no-repeat;
     color:white;
-    padding:20px;
+    padding:140px 20px;
     text-align:center;
 }
-section{
-    padding:40px;
-    background:white;
-    margin:20px;
-    border-radius:10px;
+
+header h1{
+    font-size:48px;
+    margin-bottom:10px;
 }
-h2{
-    color:#0a4d68;
+
+header p{
+    font-size:22px;
 }
-footer{
-    background:#0a4d68;
+
+.btn{
+    background:#ff6b00;
     color:white;
-    text-align:center;
-    padding:20px;
-}
-.button{
-    background:#05bfdb;
-    color:white;
-    padding:12px 20px;
+    padding:14px 26px;
     text-decoration:none;
     border-radius:6px;
+    display:inline-block;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.treks{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 18px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+    margin:0;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+.guide{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:30px;
+}
+
+.guide img{
+    width:280px;
+    border-radius:10px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:16px;
+    border-radius:50%;
+    font-size:26px;
+    text-decoration:none;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
 }
 </style>
 </head>
@@ -48,38 +120,75 @@ footer{
 
 <header>
 <h1>Go Nepal Adventures</h1>
-<p>Trekking & Tours in Nepal</p>
+<p>Trekking & Tours in Nepal with Local Expert Guides</p>
+<a class="btn" href="https://wa.me/9779818800584">Book on WhatsApp</a>
 </header>
 
 <section>
-<h2>Welcome to Go Nepal Adventures</h2>
-<p>We provide professional trekking and tour services in Nepal. Explore Everest Base Camp, Annapurna Base Camp, Langtang Valley, and many more beautiful Himalayan destinations with experienced local guides.</p>
-<a class="button" href="mailto:youremail@gmail.com">Contact Us</a>
+<h2>Popular Treks in Nepal</h2>
+
+<div class="treks">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa">
+<h3>Everest Base Camp Trek – 14 Days</h3>
+<p>Experience the legendary Everest Base Camp trek through Sherpa villages and breathtaking Himalayan landscapes.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1595433707802-86d5e3d6c5c3">
+<h3>Annapurna Base Camp Trek – 10 Days</h3>
+<p>A perfect Himalayan adventure with rhododendron forests and close-up mountain views.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605640840605-14ac1855827b">
+<h3>Langtang Valley Trek – 7 Days</h3>
+<p>Beautiful short trek near Kathmandu with glaciers, yaks and Tamang culture villages.</p>
+</div>
+
+</div>
 </section>
 
 <section>
-<h2>Popular Packages</h2>
-<ul>
-<li>Everest Base Camp Trek - 14 Days</li>
-<li>Annapurna Base Camp Trek - 10 Days</li>
-<li>Langtang Valley Trek - 7 Days</li>
-<li>Kathmandu Valley Cultural Tour</li>
-</ul>
+<h2>Meet Your Guide</h2>
+<div class="guide">
+<img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+<div>
+<h3>Indra Tamang – Licensed Trekking Guide</h3>
+<p>Professional trekking guide from Nepal with years of experience leading international trekkers in Everest, Annapurna and Langtang regions.</p>
+<a class="btn" href="https://wa.me/9779818800584">Ask a Question</a>
+</div>
+</div>
 </section>
 
 <section>
 <h2>Why Choose Us?</h2>
 <ul>
-<li>Experienced local guides</li>
-<li>Affordable prices</li>
-<li>Customized itineraries</li>
-<li>24/7 support</li>
+<li>✔ Experienced local guides</li>
+<li>✔ Affordable local prices</li>
+<li>✔ Airport pickup assistance</li>
+<li>✔ 24/7 support during trek</li>
+<li>✔ Safety priority and altitude care</li>
 </ul>
 </section>
 
+<section>
+<h2>Contact</h2>
+<p style="text-align:center;">
+WhatsApp: +9779818800584<br>
+Location: Kathmandu, Nepal<br>
+Email: gonepaladventures@gmail.com
+</p>
+</section>
+
 <footer>
-<p>© 2026 Go Nepal Adventures | Nepal Trekking Agency</p>
+<p>© 2026 Go Nepal Adventures | Local Trekking Agency in Nepal</p>
 </footer>
+
+<a class="whatsapp" href="https://wa.me/9779818800584">
+<i class="fab fa-whatsapp"></i>
+</a>
 
 </body>
 </html>
